@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Avant Garde";
+  src: url("../fonts/AvantGardeC.otf");
+}
+@font-face {
+  font-family: "Avant Garde Bold";
+  src: url("../fonts/AvantGardeC_Bold.otf");
+}
+@font-face {
+  font-family: "Avant Garde Bold Italic";
+  src: url("../fonts/AvantGardeC_Bold_Italic.otf");
+}
+.header {
+  opacity: 0.5;
+  background: #0C1021;
+  font-family: "Avant Garde", sans-serif;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
