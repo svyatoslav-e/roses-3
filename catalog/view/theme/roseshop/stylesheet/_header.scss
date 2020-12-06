@@ -1,6 +1,25 @@
+.top-links {
+  background: $green-default;
+  display: block;
+  height: 11px;
+}
+
 .header {
-  opacity: 0.5;
-  background: #0C1021;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $white-default;
   font-family: 'Avant Garde', sans-serif;
   font-size: 15px;
+
+  &_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_logo {
+    width: 57px;
+  }
 }

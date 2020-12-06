@@ -1,5 +1,5 @@
 {{ header }}
-<div id="common-home" class="container">
+<div id="common-home" class="container-fluid home-page">
   <div class="row">{{ column_left }}
     {% if column_left and column_right %}
     {% set class = 'col-sm-6' %}
@@ -8,7 +8,14 @@
     {% else %}
     {% set class = 'col-sm-12' %}
     {% endif %}
-    <div id="content" class="{{ class }}">{{ content_top }}{{ content_bottom }}</div>
+    <div class="home-page_banner">
+      <img src="/image/banners/banner.png" alt="Магазин Фрукты и Розы от производителя" class="home-page_banner-image">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div id="content" class="{{ class }}">{{ content_top }}{{ content_bottom }}</div>
+      </div>
+    </div>
     {{ column_right }}</div>
 </div>
 {{ footer }}

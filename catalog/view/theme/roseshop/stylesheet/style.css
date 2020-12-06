@@ -10,11 +10,32 @@
   font-family: "Avant Garde Bold Italic";
   src: url("../fonts/AvantGardeC_Bold_Italic.otf");
 }
+.top-links {
+  background: #4fac25;
+  display: block;
+  height: 11px;
+}
+
 .header {
-  opacity: 0.5;
-  background: #0C1021;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
   font-family: "Avant Garde", sans-serif;
   font-size: 15px;
+}
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_logo {
+  width: 57px;
+}
+
+.home-page_banner-image {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
