@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 				files: {
-					'catalog/view/theme/vuetyshop/stylesheet/style.css' : 'catalog/view/theme/vuetyshop/stylesheet/style.scss'
+					'catalog/view/theme/roseshop/stylesheet/style.css' : 'catalog/view/theme/roseshop/stylesheet/style.scss'
 				}
 			}
 		},
