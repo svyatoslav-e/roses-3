@@ -11,6 +11,8 @@ system/cache/
 system/logs/
 
 system/storage/
+node_modules/
+package-lock.json
 
 # vQmod log files
 vqmod/logs/*
